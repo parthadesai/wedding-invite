@@ -79,15 +79,15 @@
             <div id="video-background" class="video-player" data-property="{videoURL:'https://youtu.be/N7g-gjXjVWI',containment:'.video-player',autoPlay:true, startAt:0, opacity:1}"></div> -->
             <div class="hero-slider hero-slider-s1">
                 <div class="slide-item">
-                    <img src="images/slider/slide-2.JPG" alt class="slider-bg">
+                    <img src="images/slider/slide-2.jpg" alt class="slider-bg">
                 </div>
 
                 <div class="slide-item">
-                    <img src="images/slider/slide-1.JPG" alt class="slider-bg">
+                    <img src="images/slider/slide-1.jpg" alt class="slider-bg">
                 </div>
 
                 <div class="slide-item">
-                    <img src="images/slider/slide-3.JPG" alt class="slider-bg">
+                    <img src="images/slider/slide-3.jpg" alt class="slider-bg">
                 </div>
             </div>
             <div class="wedding-announcement">
@@ -156,7 +156,7 @@
                     <div class="col col-xs-12">
                         <div class="gb groom">
                             <div class="img-holder wow fadeInLeftSlow">
-                                <img src="images/couple/img-1.JPG" alt>
+                                <img src="images/couple/img-1.jpg" alt>
                             </div>
                             <div class="details">
                                 <div class="details-inner">
@@ -212,7 +212,7 @@
         <!-- end wedding-couple-section -->
 
         <!-- start count-down-section -->
-        <section class="count-down-section section-padding parallax" data-bg-image="images/countdown-bg.JPG" data-speed="7">
+        <section class="count-down-section section-padding parallax" data-bg-image="images/countdown-bg.jpg" data-speed="7">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -360,7 +360,7 @@
         <!-- end story-section -->
 
         <!-- start cta -->
-        <section class="cta section-padding parallax" data-bg-image="images/cta-bg.JPG" data-speed="7">
+        <section class="cta section-padding parallax" data-bg-image="images/cta-bg.jpg" data-speed="7">
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
@@ -586,8 +586,8 @@
                                     </div>
                                     <div class="grid">
                                         <div class="img-holder">
-                                            <a href="images/groomsmen/img-2.JPG" class="popup-image">
-                                                <img src="images/groomsmen/img-2.JPG" alt class="img img-fluid">
+                                            <a href="images/groomsmen/img-2.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-2.jpg" alt class="img img-fluid">
                                             </a>
                                         </div>
                                     
