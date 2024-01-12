@@ -138,7 +138,7 @@
 						
                             <div class="details1213" style="padding: 40px 25px; width: 90% !important; ">
                                 <div class="details-inner" style="width: 90% !important;">
-                                    <h3>શ્રીમાન, ....</h3>
+                                    <h3>શ્રીમાન, <span id="invitee-name">....</span></h3>
                                     <p>સહર્ષ ખુશાલી સાથે જાણાવાવનું કે ભગવાન શ્રી શ્રીનાથજીબાવા તથા અમારા કુળદેવી શ્રી ઉમિયા માતાજી ની અસીમ કૃપાથી </p>
                                     
                                 </div>
@@ -929,6 +929,19 @@
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>
+    <script>
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Get the name from the query parameter 'name'
+        const guestName = getQueryParam('guest');
+
+        // Set the name in the element with id 'invitee-name'
+        const inviteeNameElement = document.getElementById('invitee-name');
+        inviteeNameElement.textContent = guestName ? guestName : '....';
+    </script>
 </body>
 
 <!-- Mirrored from irsfoundation.com/tf/templates/wedding/lovely-wedding/lovely-wedding/index-11.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 09:40:29 GMT -->
